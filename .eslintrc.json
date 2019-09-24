@@ -1,0 +1,71 @@
+{
+    "env": {
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "browser": true
+    },
+    "root": true,
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "never"
+        ],
+        "no-floating-decimal": "error",
+        "no-magic-numbers": [
+            "warn",
+            {
+                "ignore": [0, 1, -1]
+            }
+        ],
+        "no-return-assign": "error",
+        "no-return-await": "error",
+        "no-sequences": "error",
+        "no-throw-literal": "error",
+        "yoda": "error",
+        "handle-callback-err": "warn",
+        "consistent-this": [
+            "error",
+            "_this"
+        ],
+        "no-lonely-if": "error",
+        "no-mixed-operators": "error",
+        "no-continue": "error",
+        "generator-star-spacing": "error",
+        "prefer-rest-params": "error",
+        "prefer-spread": "error",
+        "no-confusing-arrow": "error",
+        "object-curly-spacing": [
+            "error",
+            "never"
+        ],
+        "guard-for-in": "error",
+        "no-multi-spaces": "error",
+        "array-bracket-spacing": "error",
+        "space-before-function-paren": [
+            "error",
+            "never"
+        ],
+        "spaced-comment": "error"
+    }
+}
